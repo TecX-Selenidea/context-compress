@@ -1,0 +1,40 @@
+@'
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Envs & caches
+.env
+.venv/
+venv/
+.conda/
+.pytest_cache/
+cache/
+.tmp/
+logs/
+
+# Hugging Face / datasets
+data/
+datasets/
+hf_cache/
+HF_CACHE/
+HF_HOME/
+
+# Model outputs & big files
+checkpoints/
+wandb/
+
+# Results artifacts (keep small text/MD; ignore heavy files)
+results/**/*.png
+results/**/*.pdf
+results/**/*.csv
+'@ | Set-Content .gitignore

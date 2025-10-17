@@ -1,0 +1,9 @@
+datasets==2.20.0
+transformers
+accelerate
+torch
+evaluate
+rouge_score
+rank-bm25
+nltk
+absl-py
