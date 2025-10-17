@@ -1,6 +1,6 @@
 # Context Compression Pipeline
 
-## Status (Day 10)
+## Status So Far
 - Baselines: Truncate / BM25 / FLAN-T5 working end-to-end
 - Selector: DistilBERT trained (CNN/DailyMail, 5k, 2 epochs, ROUGE-L recall supervision)
 - Compression: BM25, Selector, Hybrid (Selector + BM25)
